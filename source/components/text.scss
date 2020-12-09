@@ -1,0 +1,22 @@
+abbr[title] {
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+kbd, samp {
+  font-family: $font-family-monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}

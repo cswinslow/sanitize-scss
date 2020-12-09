@@ -1,0 +1,21 @@
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+iframe, img {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border-style: none;
+}
+
+svg:not([fill]) {
+  fill: currentColor;
+}
