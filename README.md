@@ -1,4 +1,4 @@
-# SCSS Master
+# Sanitize SCSS
 A simple, clean starting point with an opinionated file structure for SCSS projects that take advantage of [sanitize.css](https://csstools.github.io/sanitize.css/)'s as its base.
 
 ## Usage
