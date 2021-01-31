@@ -1,101 +1,106 @@
 button, input, select, textarea {
-  background-color: transparent;
-  border: 1px solid WindowFrame;
-  color: inherit;
-  font: inherit;
-  letter-spacing: inherit;
-  margin: 0;
-  padding: 0.25em 0.375em;
+    background-color: transparent;
+    border: 1px solid WindowFrame;
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+    margin: 0;
+    padding: 0.25em 0.375em;
+    -ms-touch-action: manipulation;
+}
+
+button, [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button;
 }
 
 button {
-  text-transform: none;
-}
-
-[type=button], [type=reset], [type=submit], button {
-  -webkit-appearance: button;
+    text-transform: none;
 }
 
 fieldset {
-  border: 1px solid #a0a0a0;
-  padding: 0.35em 0.75em 0.625em;
+    border: 1px solid #a0a0a0;
+    padding: 0.35em 0.75em 0.625em;
 }
 
 input, select, textarea {
-  height: auto;
-  max-width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 input {
-  overflow: visible;
+    overflow: visible;
+}
+
+label {
+    -ms-touch-action: manipulation;
 }
 
 legend {
-  display: table;
-  max-width: 100%;
-  white-space: normal;
+    display: table;
+    max-width: 100%;
+    white-space: normal;
 }
 
 progress {
-  display: inline-block;
-  vertical-align: baseline;
+    display: inline-block;
+    vertical-align: baseline;
 }
 
 select {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  background: no-repeat right center / 1em;
-  border-radius: 0;
-  padding-right: 1em;
-  text-transform: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: no-repeat right center / 1em;
+    border-radius: 0;
+    padding-right: 1em;
+    text-transform: none;
 }
 
 select:not([multiple]):not([size]) {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='4'%3E%3Cpath d='M4 0h6L7 4'/%3E%3C/svg%3E");
 }
 
 textarea {
-  resize: vertical;
-  resize: block;
+    resize: vertical;
+    resize: block;
 }
 
 [type="color"], [type="range"] {
-  border-width: 0;
-  padding: 0;
+    border-width: 0;
+    padding: 0;
 }
 
 [type=search] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
 }
 
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
+    -webkit-appearance: button;
+    font: inherit;
 }
 
 ::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
-  height: auto;
+    height: auto;
 }
 
 ::-webkit-input-placeholder {
-  color: inherit;
-  opacity: 0.54;
+    color: inherit;
+    opacity: 0.54;
 }
 
 ::-webkit-search-decoration {
-  -webkit-appearance: none;
+    -webkit-appearance: none;
 }
 
 ::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
+    border-style: none;
+    padding: 0;
 }
 
 :-moz-focusring {
-  outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText;
 }
 
 :-moz-ui-invalid {
-  box-shadow: none;
+    box-shadow: none;
 }

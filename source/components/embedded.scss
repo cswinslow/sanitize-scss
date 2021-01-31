@@ -1,21 +1,29 @@
 audio, canvas, iframe, img, svg, video {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 audio:not([controls]) {
-  display: none;
-  height: 0;
+    display: none;
+    height: 0;
+}
+
+canvas {
+    display: inline-block;
 }
 
 iframe, img {
-  height: auto;
-  max-width: 100%;
+    height: auto;
+    max-width: 100%;
 }
 
 iframe {
-  border-style: none;
+    border-style: none;
 }
 
 svg:not([fill]) {
-  fill: currentColor;
+    fill: currentColor;
+}
+
+template {
+    display: none;
 }
